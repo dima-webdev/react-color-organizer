@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.star {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin: 6px;
+  float: left;
+  background-color: grey;
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+  transition: all 0.3s ease-out;
+}
+.star.selected {
+  background-color: red;
+}
+
+.star-rating {
+  overflow: hidden;
+  margin: 10px 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.star-stats {
+  margin-bottom: 15px;
+}
+
+.color {
+  margin-bottom: 15px;
+}
+
+.color-wrapper {
+  margin-bottom: 25px;
+}
+
+.color-input {
+  display: block;
+  margin: 10px auto;
+}
+
+.form-control {
+  display: block;
+  margin: 10px auto;
+}
+
+.select-margin {
+  margin: 10px 0;
+}
